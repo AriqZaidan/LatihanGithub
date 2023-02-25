@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#f2f2f2">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:src="@drawable/foto_profile"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ariq Zaidan"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/gambar"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/kota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Depok"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_below="@+id/nama"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="saya satria zaidan ariq berasal dari kota depok dan saya satu orang saya hobi bermain badminton pemain favorit saya adalah kevin sanjaya dan marcus gideon"
+        android:layout_below="@+id/kota"
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:id="@+id/follow"
+        android:layout_width="150dp"
+        android:layout_below="@+id/deskripsi"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Follow"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deskripsi"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:text="Message"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"/>
+
+</RelativeLayout>
